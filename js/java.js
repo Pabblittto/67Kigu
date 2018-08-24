@@ -1,20 +1,21 @@
 $(document).ready(function(){
 
-
-
-
+$(".content").click( function(){
+  $(".more:visible").slideUp(100, function() {});
+  console.log("poszło");
 })
 
-function printlog()
-{
-
- $(".inputelo").each(function() {
-  console.log($(this).val());
 });
 
 
-$(".tekst").slideToggle(200, function() {
-  //Stuff to do *after* the animation takes place
-})
+function elo($variable)
+{
+if ($(".more:visible").prop("id")!=$variable) {
+$(".more:visible").slideUp(100, function() {})
+
+}
+
+
+  $('#'+$variable).slideToggle(300, function() {})
 
 }

@@ -1,7 +1,83 @@
 p{
-font-size: 30px;
+font-size: 40px;
+opacity: 1;
 }
 
 .tekst{
   display: block;
+}
+
+
+.container{
+background-image: linear-gradient(30deg,rgb(10, 214, 47),rgb(20, 181, 103));
+
+margin: auto;
+}
+
+.mainDiv{
+opacity: 0.7;
+background-color: white;
+width: 100%;
+height: 900px;
+
+}
+
+.menu{
+  background-color: rgb(19, 96, 0);
+width: 100%;
+height: 100px;
+}
+
+.buttons{
+  float: right;
+height: inherit;
+width: 190px;
+border-left-width: 1px;
+border-left-color: black;
+border-left-style: solid;
+text-align: center;
+vertical-align: middle;
+line-height: 100px;
+color: rgb(0, 0, 0);
+font-size: 17px;
+}
+
+.buttons:hover{
+  background-color: rgb(8, 40, 0);
+
+}
+
+a:active{
+  text-decoration: none;
+  color: black;
+
+}
+
+a:visited{
+  text-decoration: none;
+  color: black;
+}
+
+.more{
+  z-index: 1;
+display: none;
+position: absolute;
+width: 1110px;
+height: 100px;
+background-color: rgb(64, 135, 47);
+}
+
+#Options{
+text-align: center;
+}
+
+.text{
+width: auto;
+height: auto;
+
+}
+
+.content{
+  position: relative;
+  top: 0;
 }
