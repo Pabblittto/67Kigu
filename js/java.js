@@ -1,11 +1,9 @@
 $(document).ready(function(){
 
 
-    $("button").click(function(){
-        $(".tekst").slideToggle("slow", function() {
-          //Stuff to do *after* the animation takes place
-        })
 
+
+})
 
 function printlog()
 {
@@ -13,5 +11,10 @@ function printlog()
  $(".inputelo").each(function() {
   console.log($(this).val());
 });
+
+
+$(".tekst").slideToggle(200, function() {
+  //Stuff to do *after* the animation takes place
+})
 
 }
