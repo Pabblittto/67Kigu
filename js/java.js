@@ -2,16 +2,16 @@ $(document).ready(function(){
 
 
     $("button").click(function(){
-        $("p").fadeOut();
-    });
-});
+        $(".tekst").slideToggle("slow", function() {
+          //Stuff to do *after* the animation takes place
+        })
 
 
-function print()
+function printlog()
 {
 
  $(".inputelo").each(function() {
-  console.log($(this).val()); 
+  console.log($(this).val());
 });
 
 }
