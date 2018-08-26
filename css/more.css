@@ -1,0 +1,42 @@
+.more{
+  z-index: 1;
+  display: none; 
+  position: absolute !important;
+  top: 100px;
+  height: 100px;
+  background-color: rgb(64, 135, 47);
+  float: right;
+
+}
+
+
+.frstcontainer{
+  float:left;
+  height: inherit;
+
+}
+
+
+.scndcontainer{
+  float: right;
+  height: inherit;
+}
+
+.more p{
+  margin-bottom: 0px !important;
+}
+
+
+.more a:active{
+    text-decoration: none;
+    color: black;
+  }
+
+.more a:visited{
+    text-decoration: none;
+    color: black;
+  }
+.more a:hover{
+    color: black;
+    text-decoration: none;
+  }

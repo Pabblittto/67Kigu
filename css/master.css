@@ -1,6 +1,8 @@
-p{
-font-size: 40px;
-opacity: 1;
+
+body{
+  background-image: linear-gradient(30deg,rgb(10, 214, 47),rgb(20, 181, 103));
+
+
 }
 
 .tekst{
@@ -8,18 +10,13 @@ opacity: 1;
 }
 
 
-.container{
-background-image: linear-gradient(30deg,rgb(10, 214, 47),rgb(20, 181, 103));
 
-margin: auto;
-}
 
 .mainDiv{
-opacity: 0.7;
-background-color: white;
-width: 100%;
-height: 900px;
-
+height: 800px;
+margin: auto;
+padding-left: 0px !important;
+padding-right: 0px !important;
 }
 
 .menu{
@@ -32,9 +29,6 @@ height: 100px;
   float: right;
 height: inherit;
 width: 190px;
-border-left-width: 1px;
-border-left-color: black;
-border-left-style: solid;
 text-align: center;
 vertical-align: middle;
 line-height: 100px;
@@ -50,34 +44,24 @@ font-size: 17px;
 a:active{
   text-decoration: none;
   color: black;
-
 }
 
 a:visited{
   text-decoration: none;
   color: black;
 }
-
-.more{
-  z-index: 1;
-display: none;
-position: absolute;
-width: 1110px;
-height: 100px;
-background-color: rgb(64, 135, 47);
+a:hover{
+  text-decoration: none;
+  color: black;
 }
 
-#Options{
-text-align: center;
-}
 
-.text{
-width: auto;
-height: auto;
 
-}
-
-.content{
-  position: relative;
-  top: 0;
+.logo {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 100px;
+  color: rgb(0, 0, 0);
+  font-size: 23px;
+text-decoration: underline;
 }

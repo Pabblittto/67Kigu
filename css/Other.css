@@ -1,0 +1,30 @@
+.imageTile{
+
+height: inherit;
+text-align: center;
+border-radius: 10px;
+padding: 4px;
+}
+
+#Other{
+height: 150px;
+}
+
+.photoContainer{
+justify-content: space-around;
+display: flex;
+height: inherit;
+width: inherit;
+}
+
+.imageTile img{
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(3, 98, 0);
+  border-radius: 10px;
+}
+
+.imageTile img:hover{
+opacity: 0.5;
+border-color: rgb(4, 59, 2);
+}

@@ -1,0 +1,22 @@
+.headerBar{
+width: inherit;
+margin:5px;
+padding-left: 9px;
+border-radius: 10px;
+background-color: rgb(21, 121, 76);
+border-color: rgb(3, 50, 29);
+height: auto;
+}
+
+.content{
+background-color: rgb(80, 207, 33);
+height: inherit;
+padding: 10px;
+}
+
+.content p::before{
+  content: "";
+margin-left: 40px;
+
+
+}
