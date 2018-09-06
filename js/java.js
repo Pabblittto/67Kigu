@@ -4,7 +4,7 @@ $(document).on("click", function(e) {
 
   if(e.target.id!= "menuArea" && !$(e.target).hasClass("menuArea") && !$(e.target).parents().hasClass("menuArea") ){
     $(".more:visible").slideUp(200, function() {});
-    console.log("poszło");
+
 
   }
 })
